@@ -23,7 +23,7 @@
 
 ## Alert #2  
 **Alert Date:** 2024-09-24T08:21:15+03:00  
-**Closed Date:** 2026-10-24T13:17:59.970220+00:00  
+**Closed Date:** 2026-10-25T08:48:46.584294+00:00  
 **Alert Title:** Unauthorized Cloud Region Access Attempt Detected / Web Attack  
 **Severity:** Low  
 **Source IP:** 134.xxx.xx.xx  
@@ -42,3 +42,25 @@
 **Time to Triage:** 15 minutes  
 
 ---
+
+## Alert #3  
+**Alert Date:** 2023-06-21T13:51:49+03:00  
+**Closed Date:**   
+**Alert Title:** Brute Force Detected on VPN  
+**Severity:** High  
+**Source IP:** 37.xx.xxx.xxx  
+**Target:** 33.xx.xx.xx
+
+**Hypothesis:** Alert is True positive. Attacker attempted to login into 5 separate devices and was successful at login in one of the devices. Attacker used brute force method to login into the device. 
+
+**Evidence:**
+- Source IP is related to Datacamp Limited's datacenter/Web hosting ip subnet. 
+- There are login requests to VPN ports to 5 different users.
+- multiple login attempts in short interval for user "mane".
+
+**Classification:** True Positive  
+**Action Taken:** Isolated Mane's device from the system.
+**Time to Triage:** 30 minutes 
+
+---
+
