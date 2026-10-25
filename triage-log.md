@@ -21,4 +21,24 @@
 
 ---
 
+## Alert #2  
+**Alert Date:** 2024-09-24T08:21:15+03:00  
+**Closed Date:** 2026-10-24T13:17:59.970220+00:00  
+**Alert Title:** Unauthorized Cloud Region Access Attempt Detected / Web Attack  
+**Severity:** Low  
+**Source IP:** 134.xxx.xx.xx  
+**Target:** 52.xx.xxx.xx
 
+**Hypothesis:** Alert is True positive, There were 25+ login attempts which were blocked. No login attempts were attempted to other systems in the network.
+
+**Evidence:**
+- 25+ login attempts in under an hour to the unused cloud region. All login attempts blocked.
+- Continuous Post request from unused cloud region.
+- Linux AWS server - No syslog and authlogs present.
+- Attacker IP 134[.]209.145.73
+
+**Classification:** True Positive  
+**Action Taken:** No action as login attempts already blocked
+**Time to Triage:** 15 minutes  
+
+---
