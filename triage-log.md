@@ -38,14 +38,14 @@
 - Attacker IP 134[.]209.145.73
 
 **Classification:** True Positive  
-**Action Taken:** No action as login attempts already blocked
+**Action Taken:** No action as login attempts already blocked  
 **Time to Triage:** 15 minutes  
 
 ---
 
 ## Alert #3  
 **Alert Date:** 2023-06-21T13:51:49+03:00  
-**Closed Date:**   
+**Closed Date:** 2026-10-25T10:35:17.730322+00:00  
 **Alert Title:** Brute Force Detected on VPN  
 **Severity:** High  
 **Source IP:** 37.xx.xxx.xxx  
@@ -59,7 +59,7 @@
 - multiple login attempts in short interval for user "mane".
 
 **Classification:** True Positive  
-**Action Taken:** Isolated Mane's device from the system.
+**Action Taken:** Isolated Mane's device from the system.  
 **Time to Triage:** 30 minutes 
 
 ---
