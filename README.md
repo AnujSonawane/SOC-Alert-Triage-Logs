@@ -1,1 +1,1 @@
-##Documentation of analyzed SOC alerts and mitigation steps.
+## Documentation of analyzed SOC alerts and mitigation steps.
