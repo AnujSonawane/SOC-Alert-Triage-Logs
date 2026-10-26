@@ -64,3 +64,34 @@
 
 ---
 
+## Alert #4  
+**Alert Date:** 2025-03-13T09:44:00+03:00  
+**Closed Date:**   
+**Alert Title:**  Lumma Stealer - DLL Side-Loading via Click Fix Phishing  
+**Severity:** Critical  
+**Source IP:** update@windows-xxxxx.xxxx
+**Target:** user@example.com
+
+**Hypothesis:** The generated alert is True Positive. The Mail was Phishing and was related to Lumma stealer malware campaign. Contains a clickfix type page to redirect to a domain from which malicious payload would be downloaded. The Phishing mail is deleted and the users system is isolated from the network.  
+
+**Evidence:**
+- Mail's SMTP address - 132.xxx.xx.xxx
+![Malicious Lumma SMTP address](img/Lumma_malicious_SMTP_Address.png)
+![VT Results](img/VT_RESULTS.png)
+- Phishing mail promises to give free Win11 upgrade and gives a short time so cutomer would follow the steps in the mail.
+![Phish Mail](img/Phish_mail.png)
+![Mail Preview](img/mail_preview.png)
+- Email domain is related to Lumma stealer
+![Domain](img/Domain_1.png)
+![VT_Doamin](img/domain_2.png)
+- User clicked on the phishing link which ran malicious powershell commands
+![pws commands](img/pws_cmd.png)
+![Vt Results](img/payload_download_site.png)  
+
+**Classification:** True Positive  
+**Action Taken:** 
+- Deleted Phishing Email from user's mailbox
+- User's device isolated from the network  
+**Time to Triage:** 30 mins
+
+---
