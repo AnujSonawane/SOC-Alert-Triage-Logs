@@ -89,9 +89,7 @@
 ![Vt Results](img/payload_download_site.png)  
 
 **Classification:** True Positive  
-**Action Taken:** 
-- Deleted Phishing Email from user's mailbox
-- User's device isolated from the network  
+**Action Taken:** Deleted Phishing Email from user's mailbox, User's device isolated from the network  
 **Time to Triage:** 30 mins
 
 ---
